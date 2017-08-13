@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css?family=Londrina+Sketch|Merriweather|New+Rocker|Nova+Cut" rel="stylesheet">
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+
+</head>
+<body>
+  <div class="container">
+
+
+    <div class="header row">
+      <h1>Choose Wisely! Click on your choice...</h1>
+    </div>
+
+    <div class="row">
+
+      <div class="col-md-4">
+        <div id="rock" class="object" onclick="playGame('rock')">
+          <div class="item">
+            <img src="rock.png" alt="rock">
+            <div id="rocktext">
+              Rock
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div id="paper" class="object" onclick="playGame('paper')">
+          <div class="item">
+            <img src="paper.png" alt="paper">
+            <div id="papertext">
+              Paper
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div id="scissors" class="object" onclick="playGame('scissors')">
+          <div class="item">
+            <img src="scissors.png" alt="scissors">
+            <div id="scissorstext">
+              Scissors
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+      <div id="outcome">
+
+      </div>
+
+    </div>
+  </div>
+
+  <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script> -->
+  <script src="rps.js"></script>
+  
+
+</body>
+
+
+</html>

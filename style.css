@@ -1,0 +1,35 @@
+div.container {
+  font-family: 'Merriweather', serif;
+}
+.row {
+  margin-top:50px;
+}
+
+.item {
+  position: relative;
+}
+
+#rocktext {
+  font-family: 'New Rocker', cursive;
+  position: absolute;
+  left: 70px;
+  top: 35px;
+  text-shadow: 2px 2px 5px white;
+  font-size: 3em;
+}
+
+#papertext {
+  font-family: 'Londrina Sketch', cursive;
+  position: absolute;
+  left: 65px;
+  top: 0px;
+  font-size: 3em;
+}
+
+#scissorstext {
+  font-family: 'Nova Cut', cursive;
+  position: absolute;
+  left: 15px;
+  top: 135px;
+  font-size: 3em;
+}
