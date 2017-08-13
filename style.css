@@ -1,6 +1,13 @@
 div.container {
   font-family: 'Merriweather', serif;
 }
+
+.row h1 {
+  width: 100%;
+  text-align: center;
+  margin: auto;
+}
+
 .row {
   margin-top:50px;
 }
