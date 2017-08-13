@@ -33,3 +33,8 @@ div.container {
   top: 135px;
   font-size: 3em;
 }
+
+#outcome {
+  position:fixed;
+  margin: auto;
+}

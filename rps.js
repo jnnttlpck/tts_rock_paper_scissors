@@ -23,11 +23,14 @@ function playGame(userChoice) {
   }
 
   if (cmptChoice == "rock" && userChoice == "scissors") {
-    document.getElementById("outcome").innerHTML = "Computer choose " + cmptChoice + " and  " + cmptChoice + " beats " + userChoice + "! Machines will take over soon!"
+    document.getElementById("outcome").innerHTML = "<img src=\"angry_computer.gif\">";
+    document.querySelectorAll("h1").innerHTML =  cmptChoice.toUpperCase() + " beats "  + userChoice.toUpperCase() + ". You choose poorly. The computer wins!";
   } else if (cmptChoice == "paper" && userChoice == "rock") {
-    document.getElementById("outcome").innerHTML = "Computer choose " + cmptChoice + " and  " + cmptChoice + " beats " + userChoice + "! Machines will take over soon!"
+    document.getElementById("outcome").innerHTML = "<img src=\"angry_computer.gif\">";
+    document.querySelectorAll("h1").innerHTML = + cmptChoice.toUpperCase() + " beats " + userChoice.toUpperCase() + ". You choose poorly. The computer wins!";
   } else if (cmptChoice == "scissors" && userChoice == "paper") {
-    document.getElementById("outcome").innerHTML = "Computer choose " + cmptChoice + " and  " + cmptChoice + " beats " + userChoice + "! Machines will take over soon!"
+    document.getElementById("outcome").innerHTML = "<img src=\"angry_computer.gif\">";
+    document.querySelectorAll("h1").innerHTML = + cmptChoice.toUpperCase() + " beats " + userChoice.toUpperCase() + ". You choose poorly. The computer wins!";
   } else if (cmptChoice == "paper" && userChoice == "scissors") {
     document.getElementById("outcome").innerHTML = "You choose " + userChoice + "!  The computer choose " + cmptChoice + " and  " + userChoice + " beats " + cmptChoice + "!  Woo-hoo, you beat the computer!"
   } else if (cmptChoice == "rock" && userChoice == "paper") {
