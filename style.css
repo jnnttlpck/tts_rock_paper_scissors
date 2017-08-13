@@ -42,6 +42,7 @@ div.container {
 }
 
 #outcome {
-  position:fixed;
+
+  top: 0px;
   margin: auto;
 }

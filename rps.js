@@ -23,22 +23,28 @@ function playGame(userChoice) {
   }
 
   if (cmptChoice == "rock" && userChoice == "scissors") {
-    document.getElementById("outcome").innerHTML = "<img src=\"angry_computer.gif\">";
+    document.getElementById("content").style.display = "none";
+    document.getElementById("outcome").innerHTML = "<img src=\"angry_computer.gif\" style=\"width:400px;height:275px;\">";
     document.getElementById("headertext").innerHTML = "" + cmptChoice.toUpperCase() + " beats "  + userChoice.toUpperCase() + ". You choose poorly. The computer wins!";
   } else if (cmptChoice == "paper" && userChoice == "rock") {
-    document.getElementById("outcome").innerHTML = "<img src=\"angry_computer.gif\">";
+    document.getElementById("content").style.display = "none";
+    document.getElementById("outcome").innerHTML = "<img src=\"angry_computer.gif\" style=\"width:400px;height:275px;\">";
     document.getElementById("headertext").innerHTML = "" + cmptChoice.toUpperCase() + " beats " + userChoice.toUpperCase() + ". You choose poorly. The computer wins!";
   } else if (cmptChoice == "scissors" && userChoice == "paper") {
-    document.getElementById("outcome").innerHTML = "<img src=\"angry_computer.gif\">";
+    document.getElementById("content").style.display = "none";
+    document.getElementById("outcome").innerHTML = "<img src=\"angry_computer.gif\" style=\"width:400px;height:275px;\">";
     document.getElementById("headertext").innerHTML = "" + cmptChoice.toUpperCase() + " beats " + userChoice.toUpperCase() + ". You choose poorly. The computer wins!";
   } else if (cmptChoice == "paper" && userChoice == "scissors") {
-    document.getElementById("outcome").innerHTML = "<img src=\"winner.gif\">";
+    document.getElementById("content").style.display = "none";
+    document.getElementById("outcome").innerHTML = "<img src=\"winner.gif\" style=\"width:400px;height:275px;\">";
     document.getElementById("headertext").innerHTML = + userChoice.toUpperCase() + " beats " + cmptChoice.toUpperCase() + ". Victory!!";
   } else if (cmptChoice == "rock" && userChoice == "paper") {
-    document.getElementById("outcome").innerHTML = "<img src=\"winner.gif\">";
+    document.getElementById("content").style.display = "none";
+    document.getElementById("outcome").innerHTML = "<img src=\"winner.gif\" style=\"width:400px;height:275px;\">";
     document.getElementById("headertext").innerHTML = + userChoice.toUpperCase() + " beats " + cmptChoice.toUpperCase() + ". Victory!!";
   } else if (cmptChoice == "scissors" && userChoice == "rock") {
-    document.getElementById("outcome").innerHTML = "<img src=\"winner.gif\">";
+    document.getElementById("content").style.display = "none";
+    document.getElementById("outcome").innerHTML = "<img src=\"winner.gif\" style=\"width:400px;height:275px;\">";
     document.getElementById("headertext").innerHTML = + userChoice.toUpperCase() + " beats " + cmptChoice.toUpperCase() + ". Victory!!";
   } else {
     document.getElementById("outcome").innerHTML = "Draw!"
