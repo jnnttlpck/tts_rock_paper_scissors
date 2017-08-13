@@ -42,7 +42,13 @@ div.container {
 }
 
 #outcome {
-
   top: 0px;
   margin: auto;
+  width: 100%;
+}
+
+.btn {
+  margin: auto;
+  width: 100%;
+  display: block;
 }
